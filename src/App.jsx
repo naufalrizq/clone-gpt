@@ -7,7 +7,6 @@ const openai = new OpenAIApi(configuration);
 
 function App() {
   const [input, setInput] = useState("");
-  const [output, setOutput] = useState("");
   const [messages, setMessages] = useState([]);
 
   const handleSubmit = async (e) => {
