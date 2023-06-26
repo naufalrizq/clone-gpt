@@ -57,7 +57,7 @@ function App() {
   >
     <div
       className={`${
-        message.sender === 'user' ? 'bg-green-500' : 'bg-green-500'
+        message.sender === 'user' ? 'bg-green-500' : 'bg-blue-500'
       } rounded-lg px-4 py-2 text-black max-w-sm`}
     >
       {message.content}
